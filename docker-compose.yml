@@ -1,0 +1,10 @@
+services:
+  dev:
+    image: dev_env
+    build: .
+    container_name: dev_env
+
+    stdin_open: true
+    tty: true
+
+    command: zsh
